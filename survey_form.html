@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Masterclass From Beginner to Advance</title>
+</head>
+
+<body>
+    <header>
+        <h3 style="font-size: 35px; text-align: center;">CJ Survey Application</h3>
+    </header>
+    <nav>
+        <ul style="display: flex; list-style-type: none; justify-content: space-evenly;">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section style="margin: 50px auto; width: 500px;">
+            <form method="get" style="text-align: center;">
+                <h4 style="font-size: 25px;">Job Survey Form</h4>
+                <div style="margin: 15px 0px;">
+                    <label for="firstname">Firstname</label><br>
+                    <input type="text" required name="firstname" id="firstname">
+                </div>
+                <div style="margin: 15px 0px;">
+                    <label for="lastname">Lastname</label><br>
+                    <input type="text" required name="lastname" id="lastname">
+                </div>
+                <div style="margin: 15px 0px;">
+                    <label for="email">Email</label><br>
+                    <input type="email" required name="email" id="email">
+                </div>
+                <div style="margin: 15px 0px;">
+                    <span>
+                        <label for="male">Male</label>
+                        <input type="radio" required name="gender" id="male">
+                    </span>
+                    <span>
+                        <label for="female">Female</label>
+                        <input type="radio" required name="gender" id="female">
+                    </span>
+                </div>
+                <div style="margin: 15px 0px;">
+                    <span>
+                        <input type="checkbox" name="java" id="java">
+                        <label for="java">Java</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="python" id="python">
+                        <label for="python">Python</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="javascript" id="javascript">
+                        <label for="javascript">JavaScript</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="flutter" id="flutter">
+                        <label for="flutter">Flutter & Dart</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="react" id="react">
+                        <label for="react">React</label>
+                    </span>
+                </div>
+                <div style="margin: 15px 0px;">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" rows="5" cols="30" required name="message"></textarea>
+                </div>
+                <div style="margin: 15px 0px;">
+                    <input type="submit" value="Submit Form">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
